@@ -97,3 +97,27 @@ footer {
 .card p {
     color: #555;
 }
+
+.contact-info{
+    max-width:700 px;
+    margin:50 px auto;
+    padding:30 px;
+    background: #fff;
+    border-radius:15 px;
+    box-shadow:0 4 px 15 px rgba (0,0,0,0.1);
+}
+
+.contact-info h2{
+    color:#333;
+    margin-bottom:20 px;
+}
+
+.social{
+    display:inline-block;
+    margin-right:15 px;
+    text-decoration:none;
+    color:white;
+    background:#6cc6b7;
+    padding:10 px 20 px;
+    border-radius:8 px;
+}
