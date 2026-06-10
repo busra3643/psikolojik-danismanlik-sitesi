@@ -132,4 +132,41 @@ footer {
     border-radius:10px;
 }
 
-    
+ header{
+     background:#bff2e6;
+     padding:25px;
+     text-align:center;
+     box-shadow:0 2px 10px rgba(0,0,0,0.8);
+ }
+
+{
+header h1{
+    margin:0;
+    color:#444;
+    font-size:32px;
+}
+
+.contact-info{
+    max-width:800px;
+    margin:80px auto;
+    padding:40px;
+    background:#bff2e6;
+    border-radius:20px;
+    box-shadow:0 10 25px rgba(0,0,0,0.1);
+    text-aling:center;
+}
+
+.contact-info{
+    display:inline-block;
+    margin:10px;
+    padding:12px 25px;
+    background:#6cc6b7;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.social:hover{
+    opacity:0.9;
+}
