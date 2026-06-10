@@ -1,0 +1,99 @@
+body {
+    font-family:Arial,sans-serif;
+    margin: 0;
+    background: white;
+}
+
+/* ÜST MENÜ */
+header {
+    background: #98D8C8;
+    color: #2f4f4f;  
+    padding: 15px; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* MENÜ LİNKLERİ */
+nav a {
+   color: #2f4f4f;
+   margin: 10px;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+nav a:hover {
+   color: #ffffff;
+}
+
+/* HERO ALANI */
+.hero {
+    background: #e8f6f3;
+    padding: 60px;
+    text-align: center;
+
+}
+
+/* GENEL BÖLÜMLER */
+section {
+    padding: 40px;
+}
+
+/* HİZMETLER */
+ul {
+    line-height: 1.8;
+}
+
+/* FOOTER */
+footer {
+    background: #98d8c8;
+    color: #2f4f4f;
+    text-align: center;
+    padding: 15px
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    border: 1px solid #e0f2ee;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #98d8c8;
+    color: #2f4f4f;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #7fcbb8;
+}
+
+.card h3 {
+    color: #2f4f4f;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #555;
+}
